@@ -19,7 +19,8 @@
     "prepare": "npm run build",
     "watch": "tsc --watch",
     "dev": "tsx index.ts",
-    "test": "jest"
+    "test": "jest",
+    "inspect": "npx @modelcontextprotocol/inspector ./dist/index.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.8.0",
